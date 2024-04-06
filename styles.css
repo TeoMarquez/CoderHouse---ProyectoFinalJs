@@ -295,3 +295,23 @@ button:hover {
 #summit-bet-number:hover {
     background-color: #45a049;
 }
+
+.common-back-button {
+    position: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff00 !important;
+}
+
+.common-back-button img {
+    width: 40px;
+    height: auto;
+    margin-top: -10px;
+}
+
+.common-back-button:hover {
+    background-color: #ffffff13;
+}

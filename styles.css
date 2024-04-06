@@ -1,0 +1,297 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la barra de navegación */
+header {
+    background-color: #1c6ab9;
+    color: #ecf0f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-info {
+    text-align: right;
+    font-size: larger;
+    margin-right: 10px;
+    color: rgb(255, 0, 0);
+}
+
+/* Estilos de la sección de bienvenida */
+.welcome-section {
+    margin: 20px;
+}
+
+.welcome-section p {
+    font-size: 28px;
+    color: #333; 
+    padding-left: 2%;
+}
+
+/* Estilos para los botones de juego */
+.game-buttons {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.game-buttons button {
+    background-color: #4CAF50;
+    color: white; 
+    padding: 20px 30px;
+    font-size: 16px; 
+    margin: 5px;
+    cursor: pointer; 
+    border: none; 
+    border-radius: 5px; 
+}
+
+.game-buttons button:hover {
+    background-color: #45a049; 
+}
+
+button#btn-account {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #08a098;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #196275;
+}
+
+/* Estilos para las opciones de la cuenta */
+.account-options {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: #34495e;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.account-options button {
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 5px 0; 
+    cursor: pointer; 
+    border: none; 
+    border-radius: 5px;
+    display: block; 
+    width: 100%; 
+    text-align: left; 
+}
+
+.account-options button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el formulario de la cuenta */
+.account-form {
+    max-width: 400px;
+    margin: 50px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: #cbc4cd;
+    margin-top: -120px;
+    z-index: 2;
+    position: relative; 
+    background-color: rgba(203, 196, 205, 0.9); 
+}
+
+.account-form label {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.account-form input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+}
+
+.account-form p {
+    color: red; 
+    margin-top: 5px; 
+    margin-bottom: 20px; 
+}
+
+.account-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.account-form button:hover {
+    background-color: #45a049; 
+}
+
+#password-mismatch {
+    color: red;
+    margin-top: 8px;
+}
+
+/* Estilos para el overlay general */
+.overlay {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 999;
+}
+
+/* Estilos para el botón de retroceso */
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-show-previous img {
+    width: 40px;
+    height: auto; 
+    margin-top: -10px;
+}
+
+#btn-show-previous:hover {
+    background-color: #ffffff00;
+}
+
+/* Estilos para el título */
+.bet-title {
+    color: rgb(217, 0, 255);
+}
+
+/* Estilos para el formulario de apuesta */
+.place-bet-form {
+    margin-top: 10px; 
+}
+
+#game-title {
+    margin-top: -409px;
+}
+
+/* Estilos para los resultados del juego */
+#game-results,
+#roulette-bet-form {
+    text-align: center;
+}
+
+#your-cards-title,
+#dealer-cards-title,
+#roulette-result {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#your-cards,
+#dealer-cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#your-cards img,
+#dealer-cards img {
+    width: 100px;
+    height: 150px;
+}
+
+#buttons-container,
+#roulette-bet-form button,
+#place-roulette-bet-form label,
+#place-roulette-bet-form input,
+#place-roulette-bet-form button {
+    margin-top: 20px;
+}
+
+#buttons-container button,
+#roulette-bet-form button,
+#place-roulette-bet-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+#buttons-container button:hover,
+#roulette-bet-form button:hover,
+#place-roulette-bet-form button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el formulario de apuesta a un número */
+#place-roulette-bet-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#place-roulette-bet-form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#bet-number {
+    width: 60px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#summit-bet-number {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#summit-bet-number:hover {
+    background-color: #45a049;
+}

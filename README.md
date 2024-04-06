@@ -1,36 +1,45 @@
-Simulador de Casino
+# Simulador de Casino
+
 Este es un simulador de casino desarrollado como proyecto para aprender y practicar programación web utilizando HTML, CSS y JavaScript.
 
-Descripción
+## Descripción
+
 El Simulador de Casino es una aplicación web que permite a los usuarios disfrutar de emocionantes juegos de azar de forma virtual. Los juegos incluidos en este simulador son:
 
-Blackjack: Un juego de cartas en el que el objetivo es conseguir una mano con un valor lo más cercano posible a 21 sin pasarse.
+- **Blackjack:** Un juego de cartas en el que el objetivo es conseguir una mano con un valor lo más cercano posible a 21 sin pasarse.
+  
+- **Ruleta:** Un juego de ruleta en el que los jugadores pueden apostar a números individuales, colores (rojo o negro), pares o impares.
 
-Ruleta: Un juego de ruleta en el que los jugadores pueden apostar a números individuales, colores (rojo o negro), pares o impares.
+## Funcionalidades
 
-Funcionalidades
-Inicio de Sesión y Creación de Cuenta: Los usuarios pueden iniciar sesión con su nombre de usuario y contraseña existentes o crear una nueva cuenta si no tienen una.
+- **Inicio de Sesión y Creación de Cuenta:** Los usuarios pueden iniciar sesión con su nombre de usuario y contraseña existentes o crear una nueva cuenta si no tienen una.
+  
+- **Cambio de Cuenta y Cierre de Cuenta:** Los usuarios pueden cambiar de cuenta o cerrar su cuenta en cualquier momento.
 
-Cambio de Cuenta y Cierre de Cuenta: Los usuarios pueden cambiar de cuenta o cerrar su cuenta en cualquier momento.
+- **Juegos de Azar:** Los usuarios pueden jugar al Blackjack y a la Ruleta, realizando apuestas y disfrutando de la emoción del azar.
 
-Juegos de Azar: Los usuarios pueden jugar al Blackjack y a la Ruleta, realizando apuestas y disfrutando de la emoción del azar.
+## Instalación
 
-Instalación
-Clona este repositorio en tu máquina local.
+1. Clona este repositorio en tu máquina local.
+   
+    ```bash
+    git clone https://github.com/tu-usuario/simulador-de-casino.git
+    ```
 
-bash
-Copy code
-git clone https://github.com/tu-usuario/simulador-de-casino.git
-Abre el archivo index.html en tu navegador web.
+2. Abre el archivo `index.html` en tu navegador web.
 
-Uso
-Abre la aplicación en tu navegador.
+## Uso
 
-Inicia sesión con tu cuenta existente o crea una nueva cuenta.
+1. Abre la aplicación en tu navegador.
+   
+2. Inicia sesión con tu cuenta existente o crea una nueva cuenta.
+   
+3. Selecciona el juego al que quieres jugar (Blackjack o Ruleta) y comienza a disfrutar.
 
-Selecciona el juego al que quieres jugar (Blackjack o Ruleta) y comienza a disfrutar.
+## Autores
 
-Autores
-Mateo Márquez
-Licencia
-Este proyecto está bajo la Licencia MIT.
+- **Mateo Márquez**
+
+## Licencia
+
+Este proyecto está bajo la [Licencia MIT](LICENSE).
